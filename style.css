@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Lato&family=Poppins&display=swap');
+
+.navbar{
+    background-color: #ffffff;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999 !important; 
+    color: aliceblue; /* Le pone color a la sombra */
+    box-shadow: 10px 10px 10px;
+}
+
+.container-navbar{
+    height: 57px;
+    font-family: Caprasimo, "Helvetica Neue";
+    
+}
+
+a.nav-link, a.navbar-brand {
+    color: rgba(44, 44, 44, 0.836);
+    font-size: 16px;
+    margin-right: 50px;
+    transition: 0.8s;
+
+}
+
+a.nav-link:hover, a.navbar-brand:hover {
+    color: rgb(161, 161, 161);
+    transition: 0.2s;
+}
