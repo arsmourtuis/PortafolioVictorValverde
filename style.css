@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Lato&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Lato&family=Poppins&family=Teko:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+
+
+
+/* NAVBAR */
 
 .navbar{
     background-color: #ffffff;
@@ -13,7 +19,7 @@
 
 .container-navbar{
     height: 57px;
-    font-family: Caprasimo, "Helvetica Neue";
+    font-family: Poppins, "Helvetica Neue";
     
 }
 
@@ -28,4 +34,72 @@ a.nav-link, a.navbar-brand {
 a.nav-link:hover, a.navbar-brand:hover {
     color: rgb(161, 161, 161);
     transition: 0.2s;
+}
+
+
+
+/* landing page */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Las columnas ocuparán un fracción igual del ancho disponible */
+    grid-gap: 10px; /* Espacio entre las columnas */
+    }
+
+.grid-item {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.name {
+    font-family: Agdasima, "Helvetica Neue";
+    font-size: 120px;
+    text-align: end;
+    padding-left: 300px;
+}
+
+.info {
+    font-family: Poppins, "Helvetica Neue";
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.342);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+@media (max-width: 900px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 250px 350px;    } 
+
+        .info {
+            margin: 100px;
+            margin-bottom: 50px;
+            text-align: justify;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .name {
+            font-family: Agdasima, "Helvetica Neue";
+            font-size: 100px;
+            text-align: center;
+            padding-left: 0px;
+        }
+        
+        
+}
+
+/* PROYECTOS PERSONALES */
+
+.grid-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Las columnas ocuparán un fracción igual del ancho disponible */
+    grid-gap: 10px; 
+    margin-left: 210px;
+}
+
+.grid-card {
+    padding-top: 100px;
+    padding-bottom: 200px;
+
 }
