@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 
 
 /* NAVBAR */
@@ -93,13 +95,46 @@ a.nav-link:hover, a.navbar-brand:hover {
 
 .grid-3{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; /* Las columnas ocuparán un fracción igual del ancho disponible */
+    grid-template-columns: 1fr 560px 1fr; /* Las columnas ocuparán un fracción igual del ancho disponible */
     grid-gap: 10px; 
-    margin-left: 210px;
 }
 
 .grid-card {
     padding-top: 100px;
     padding-bottom: 200px;
+    margin-left: 25%;
+    text-align: justify;
+}
 
+.proyectos{
+    text-align: center;
+    font-family: Poppins;
+    transition: 0.4s;
+
+
+}
+
+.proyectos:hover{
+    text-shadow: 2px 2px 4px rgba(77, 77, 77, 0.5);
+    transition: 0.4s;
+    transform: translate(5px, 5px);}
+
+.card-subtitle{
+    font-size: 13px;
+    padding-bottom: 10px;
+    padding-top: '3px';
+}
+ion-icon {
+    color: rgba(44, 44, 44, 0.836);
+    padding-left: 85%;
+    }
+@media (max-width: 1000px) {
+    
+    .grid-3{
+        display: grid;
+        grid-template-columns: 1fr; /* Las columnas ocuparán un fracción igual del ancho disponible */
+        grid-gap: 10px; 
+        grid-template-rows: 350px 350px 350px;  
+    }
+        
 }
