@@ -116,6 +116,8 @@ a.nav-link:hover, a.navbar-brand:hover {
     text-align: center;
     font-family: Poppins;
     transition: 0.4s;
+    font-size: 65px;
+
 
 
 }
@@ -147,17 +149,29 @@ ion-icon {
 
 /* CERTIFICACIONES Y EXPERIENCIA ACADEMICA */
 
-
-
-.grid-2x{
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Las columnas ocuparán un fracción igual del ancho disponible */
+.accordeon{
+    grid-template-columns: 1fr 3fr 3fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 10px; 
+    display: grid;
+    gap: 90px;
 }
 
-.Title{
-    color: rgb(48, 48, 48);
+button.accordion-button{
+    background-color: rgb(20, 20, 20) !important;
+    color: #ffffff !important;
 }
+
+button.accordion-button.collapsed{
+    background-color: #ffffff !important;
+    color: rgb(54, 54, 54) !important;
+
+}
+
+
+.curriculum{
+    font-size: 65px;
+}
+
+/* HABILIDADES Y LOGROS */
 
 
