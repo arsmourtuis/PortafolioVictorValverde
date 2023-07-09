@@ -95,16 +95,22 @@ a.nav-link:hover, a.navbar-brand:hover {
 
 .grid-3{
     display: grid;
-    grid-template-columns: 1fr 560px 1fr; /* Las columnas ocuparán un fracción igual del ancho disponible */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* Las columnas ocuparán un fracción igual del ancho disponible */
     grid-gap: 10px; 
 }
 
 .grid-card {
     padding-top: 100px;
     padding-bottom: 200px;
-    margin-left: 25%;
+    margin-left: 10%;
     text-align: justify;
+    transition: 0.4s;
+
 }
+
+.grid-card:hover{
+    transition: 0.4s;
+    transform: translateY(1px);}
 
 .proyectos{
     text-align: center;
@@ -138,3 +144,20 @@ ion-icon {
     }
         
 }
+
+/* CERTIFICACIONES Y EXPERIENCIA ACADEMICA */
+
+
+
+.grid-2x{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Las columnas ocuparán un fracción igual del ancho disponible */
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px; 
+}
+
+.Title{
+    color: rgb(48, 48, 48);
+}
+
+
