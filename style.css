@@ -147,7 +147,7 @@ ion-icon {
         
 }
 
-/* CERTIFICACIONES Y EXPERIENCIA ACADEMICA */
+/* CERTIFICACIONES Y EXPERIENCIA ACADEMICA HABILIDADES Y LOGROS*/
 
 .accordeon{
     grid-template-columns: 1fr 3fr 3fr 1fr;
@@ -172,6 +172,8 @@ button.accordion-button.collapsed{
     font-size: 65px;
 }
 
-/* HABILIDADES Y LOGROS */
+.text{
+    font-family: Poppins;
+}
 
 
