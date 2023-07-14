@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 
 
@@ -42,53 +41,28 @@ a.nav-link:hover, a.navbar-brand:hover {
 
 /* landing page */
 
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Las columnas ocuparán un fracción igual del ancho disponible */
-    grid-gap: 10px; /* Espacio entre las columnas */
-    }
-
-.grid-item {
-    padding-top: 200px;
-    padding-bottom: 200px;
-}
-
-.name {
-    font-family: Agdasima, "Helvetica Neue";
-    font-size: 120px;
-    text-align: end;
-    padding-left: 300px;
-}
-
 .info {
     font-family: Poppins, "Helvetica Neue";
     text-align: justify;
-    background-color: rgba(255, 255, 255, 0.342);
-    padding: 20px;
-    border-radius: 10px;
+    font-size: 20px;
 }
 
 @media (max-width: 900px) {
-    .grid-container {
-        grid-template-columns: 1fr;
-        grid-template-rows: 250px 350px;    } 
-
-        .info {
-            margin: 100px;
-            margin-bottom: 50px;
-            text-align: justify;
-            padding: 20px;
-            border-radius: 10px;
-        }
-
-        .name {
-            font-family: Agdasima, "Helvetica Neue";
-            font-size: 100px;
-            text-align: center;
-            padding-left: 0px;
-        }
         
-        
+
+}
+.container{
+
+}
+
+.grid-4{
+    display: grid;
+    grid-template-rows: 1.5fr 20px 1fr 1fr 50px 1fr;
+}
+
+.name{
+    font-size: 100px;
+    font-family: Poppins, "Helvetica Neue";
 }
 
 /* PROYECTOS PERSONALES */
@@ -116,7 +90,7 @@ a.nav-link:hover, a.navbar-brand:hover {
     text-align: center;
     font-family: Poppins;
     transition: 0.4s;
-    font-size: 65px;
+    font-size: 50px;
 
 
 
@@ -169,7 +143,7 @@ button.accordion-button.collapsed{
 
 
 .curriculum{
-    font-size: 65px;
+    font-size: 50px;
 }
 
 .text{
