@@ -177,3 +177,31 @@ button.accordion-button.collapsed{
 }
 
 
+/* FOOTER */
+
+
+footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    margin-bottom: 10px;
+}
+
+.social-media {
+    margin-bottom: 10px;
+}
+
+.social-link {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-bottom {
+    font-size: 12px;
+    color: #777;
+}
+
