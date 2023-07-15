@@ -154,11 +154,14 @@ button.accordion-button.collapsed{
 /* FOOTER */
 
 
-footer {
+footer{
     background-color: #f1f1f1;
     padding: 20px;
-    text-align: center;
+    text-align: center;    
+    grid-template-rows: 1fr 0.2fr 0.2fr;
+    display: grid;
 }
+
 
 .footer-content {
     margin-bottom: 10px;
@@ -179,3 +182,7 @@ footer {
     color: #777;
 }
 
+ion-icon.md.hydrated{
+    padding: 0px 0px 0px 0px;
+    font-size: 24px;
+}
