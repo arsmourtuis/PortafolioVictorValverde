@@ -47,14 +47,6 @@ a.nav-link:hover, a.navbar-brand:hover {
     font-size: 20px;
 }
 
-@media (max-width: 900px) {
-        
-
-}
-.container{
-
-}
-
 .grid-4{
     display: grid;
     grid-template-rows: 1.5fr 20px 1fr 1fr 50px 1fr;
@@ -64,6 +56,31 @@ a.nav-link:hover, a.navbar-brand:hover {
     font-size: 100px;
     font-family: Poppins, "Helvetica Neue";
 }
+
+@media screen and (max-width: 840px) {
+   .grid-4{
+    display: grid;
+    grid-template-rows: 0.3fr 20px 1fr 1fr 1px 0.1fr;
+}      
+
+}
+
+
+@media screen and (max-width: 428px) {
+    
+    .name{
+        font-size: 50px;
+        font-family: Poppins, "Helvetica Neue";
+        padding-top: 10px;
+    }
+    
+.info {
+    font-family: Poppins, "Helvetica Neue";
+    text-align: justify;
+    font-size: 13px;
+}
+}
+
 
 /* PROYECTOS PERSONALES */
 
@@ -91,9 +108,6 @@ a.nav-link:hover, a.navbar-brand:hover {
     font-family: Poppins;
     transition: 0.4s;
     font-size: 50px;
-
-
-
 }
 
 .proyectos:hover{
@@ -106,26 +120,49 @@ a.nav-link:hover, a.navbar-brand:hover {
     padding-bottom: 10px;
     padding-top: '3px';
 }
+
 ion-icon {
     color: rgba(44, 44, 44, 0.836);
     padding-left: 85%;
     }
-@media (max-width: 1000px) {
-    
+
+@media screen and (max-width: 840px) {
     .grid-3{
         display: grid;
         grid-template-columns: 1fr; /* Las columnas ocuparán un fracción igual del ancho disponible */
-        grid-gap: 10px; 
-        grid-template-rows: 350px 350px 350px;  
+        padding-left: 24%;
+        grid-gap: 120px; 
+        grid-template-rows: 0px 350px 350px 350px 200px;  
+        grid-row-gap: 120px;
+        margin-top: -150px;
     }
-        
+    
 }
 
+@media screen and (max-width: 428px) {
+    .proyectos{
+        font-size: 40px;
+    }
+    .card{
+        width: 16rem !important; 
+        height: 24rem !important ;
+    }
+    .grid-card {
+        margin-left: -10%;
+    }
+    .card-text{
+        font-size: 14px;
+    }
+    .card-subtitle{
+        font-size: 11px;
+    }
+
+}
 /* CERTIFICACIONES Y EXPERIENCIA ACADEMICA HABILIDADES Y LOGROS*/
 
 .accordeon{
     grid-template-columns: 1fr 3fr 3fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 0.1fr 0.1fr;
     display: grid;
     gap: 90px;
 }
@@ -150,6 +187,38 @@ button.accordion-button.collapsed{
     font-family: Poppins;
 }
 
+@media screen and (max-width: 840px) {
+    .accordeon{
+        grid-template-columns: 1fr 3fr 3fr 1fr;
+        grid-template-rows: 0.1fr 0.1fr;
+        display: grid;
+        gap: 90px;
+    }
+    
+}
+
+@media screen and (max-width: 428px) {
+    .curriculum{
+        font-size: 40px;
+    }
+    .Title{
+        font-size: 18px;
+    }
+    .text{  
+        font-size: 13px;
+    }
+    .accordeon{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 0.1fr 0.1fr auto auto 0.1fr 0.1fr auto;
+        display: grid;
+        gap: 0px;
+        padding: 30px;
+    }
+    .accordion{
+        margin: 5px;
+    }
+
+}
 
 /* FOOTER */
 
